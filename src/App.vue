@@ -1,7 +1,7 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+const data = new Date();
 </script>
 
 <template>
-  <HelloWorld />
+  <h1>{{ data }}</h1>
 </template>
