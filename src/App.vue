@@ -1,7 +1,13 @@
 <script setup>
-const data = new Date();
+import Button from "./components/Button.vue";
 </script>
 
 <template>
-  <h1>{{ data }}</h1>
+  <Button />
 </template>
+
+<style>
+body {
+  font-family: "Roboto", sans-serif;
+}
+</style>
